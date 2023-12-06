@@ -1,0 +1,22 @@
+.cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  .card {
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    display: flex;
+    text-align: center;
+    border: 1px solid gray;
+    img{
+        margin-top: 20px;
+    }
+    .category {
+      color: gray;
+    }
+    .price {
+      color: #cc9966;
+    }
+  }
+}
